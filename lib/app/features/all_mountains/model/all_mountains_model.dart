@@ -1,7 +1,8 @@
-import 'package:posts_data_source/posts_data_source.dart' show Post;
 
 
-typedef PostModel = Post;
+// TODO(Me): 2. 使用 posts_data_source 的 Post Model
+typedef PostModel = dynamic;
+
 
 final sample = {
   "id": "001",
