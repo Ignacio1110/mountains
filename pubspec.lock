@@ -65,22 +65,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
-  dio:
-    dependency: "direct main"
-    description:
-      name: dio
-      sha256: "797e1e341c3dd2f69f2dad42564a6feff3bfb87187d05abb93b9609e6f1645c3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.4.0"
-  equatable:
-    dependency: transitive
-    description:
-      name: equatable
-      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -192,14 +176,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.9"
-  http_parser:
-    dependency: transitive
-    description:
-      name: http_parser
-      sha256: "2aa08ce0341cc9b354a498388e30986515406668dbcc4f7c950c3e715496693b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.2"
   json_annotation:
     dependency: "direct main"
     description:
@@ -344,13 +320,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.7"
-  posts_data_source:
-    dependency: "direct main"
-    description:
-      path: "mountains_backend/packages/posts_data_source"
-      relative: true
-    source: path
-    version: "0.1.0+1"
   riverpod:
     dependency: transitive
     description:

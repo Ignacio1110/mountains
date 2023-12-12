@@ -15,7 +15,7 @@ class ItemMountainWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 358,
-      height: 435,
+      // height: 435,
       padding: const EdgeInsets.symmetric(
         horizontal: 19.0,
         vertical: 16.0,
@@ -88,14 +88,12 @@ class ItemMountainWidget extends StatelessWidget {
           ),
           const Gap(SpaceData.px8),
           // 貼文內容
-          Expanded(
-            child: Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                postData.content,
-                overflow: TextOverflow.ellipsis,
-                style: AppTextStyle.body1,
-              ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              postData.content,
+              overflow: TextOverflow.ellipsis,
+              style: AppTextStyle.body1,
             ),
           ),
           const Gap(SpaceData.px8),

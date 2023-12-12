@@ -44,10 +44,7 @@ dependencies:
   flutter_svg: ^2.0.8
   flutter_animate: ^4.2.0+1
 
-  dio: any
-  # 添加 posts_data_source
-  posts_data_source:
-    path: mountains_backend/packages/posts_data_source
+  # TODO(Me): 1. 添加 posts_data_source and dio
 
 dev_dependencies:
   flutter_test:
